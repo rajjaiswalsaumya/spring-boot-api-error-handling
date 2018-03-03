@@ -18,10 +18,10 @@ import java.util.Set;
 public class SwaggerConfig {
 
     public static final Contact DEFAULT_CONTACT = new Contact(
-            "Symantec Inc", "https://www.symantec.com/products/embedded-security", "");
+            "My Company", "https://www.someendpoint.com", "");
 
     public static final ApiInfo DEFAULT_API_INFO = new ApiInfo(
-            "Symantec Critical System Protection", "SCSP API v2 targetted primarily to webui 8.0 and later", "2.0",
+            "My Awesome title", "My Awesome description", "2.0",
             "urn:tos", DEFAULT_CONTACT,
             "Apache 2.0", "http://www.apache.org/licenses/LICENSE-2.0");
 
