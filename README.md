@@ -1,6 +1,15 @@
-Spring boot application to create rest endpoints as a service. 
+# Spring boot API Error Handling
+A Spring boot application to create rest endpoints as a service. 
 This application provides a demo how we can centrally manage exceptions and provide 
 custom error responses to the clients. 
+
+Integrated Swagger-2 docs helps to create api docs in a easy and convenient way
+
+##### To access the application goto 
+`http://localhost:8080`
+##### To access the docs goto 
+`http://localhost:8080/api/v2`
+
 
 ```
 package com.example.springboot.api.errorhandling.exceptionhandler;
